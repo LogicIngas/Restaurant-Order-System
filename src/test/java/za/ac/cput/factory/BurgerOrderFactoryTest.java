@@ -9,7 +9,7 @@ class BurgerOrderFactoryTest {
 
     @Test
     void createBurgerOrder() {
-        BurgerOrder order1 = BurgerOrderFactory.createBurgerOrder("The Big Mjojo Burger",
+        BurgerOrder order1 = BurgerOrderFactory.createBurgerOrder("Big Mjojo Burger",
                 " Beef  Burger (Premium BBQ)",
                 "Large", 119.00,
                 "123456723@mycput.ac.za");
